@@ -1,0 +1,28 @@
+nav{
+    background-color: #006DB4;
+    height: 100px;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav div img{
+    height: 55px;
+}
+.search{
+    display: flex;
+}
+.search input{
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: -4px;
+    border-style: none;
+    width: 80%;
+
+}
+.search button{
+    margin: 0;
+    padding: 3px;
+}

@@ -1,0 +1,122 @@
+
+
+<div>
+    <div class="loan_status_div">
+        <h1>Member quary</h1>
+        <p id="p"><b>{{name['id']}}76</b></p>
+        <div class="status">
+            <div class="status1">
+                <p>Application No: </p>
+                <p>{{name['application_no']}}</p>
+            </div>
+            <div class="status1">
+                <p>Branch Code: </p>
+                <p>{{name['branch_code']}}</p>
+            </div>
+            <div class="status1">
+                <p>Date of Birth:</p>
+                <p>{{name['dob']}}</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Loan Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Applicant name</td>
+                    <td>{{ name['name'] }}</td>
+                </tr>
+                <tr>
+                    <td>Loan Amount</td>
+                    <td>{{name['loan_amount']}}</td>
+                </tr>
+                <tr>
+                    <td>Loan type</td>
+                    <td>{{name['loan_type']}}</td>
+                </tr>
+                <tr>
+                    <td>Loan Duration</td>
+                    <td>{{name['loan_year']}} year {{name['loan_month']}} month</td>
+                </tr>
+                <tr>
+                    <td>Intrest Rate</td>
+                    <td>{{name['intrest']}}</td>
+                </tr>
+                <tr>
+                    <td>EMI</td>
+                    <td>{{name['emi']}}</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Applicant  bank details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bank name</td>
+                    <td>{{name['bank_name']}}zhmsgvdahsvhsah</td>
+                </tr>
+                <tr>
+                    <td>Account Number</td>
+                    <td>{{name['account_no']}}</td>
+                </tr>
+                <tr>
+                    <td>IFSC Code</td>
+                    <td>{{name['ifsc']}}</td>
+                </tr>
+                <tr>
+                    <td>Branch name</td>
+                    <td>{{name['bank_name']}}zhmsgvdahsvhsah</td>
+                </tr>
+                <tr>
+                    <td>Branch Address</td>
+                    <td>{{name['bank_name']}}zhmsgvdahsvhsah</td>
+                </tr>
+               
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Loan Application details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Borrower's name</td>
+                    <td>{{name['name']}}</td>
+                </tr>
+                <tr>
+                    <td>Home address</td>
+                    <td>{{name['address']}}</td>
+                </tr>
+                <tr>
+                    <td>Loan type</td>
+                    <td>{{name['loan_type']}}</td>
+                </tr>
+                <tr>
+                    <td>Application Date</td>
+                    <td>{{name['application_date']}}</td>
+                </tr>
+                <tr>
+                    <td>Application field through</td>
+                    <td>{{name['field']}}</td>
+                </tr>
+                <tr>
+                    <td>Loan application status</td>
+                    <td id="status_table">{{name['status']}}  Pending!<button  id="showissue" onclick="showModal()" >show issue</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

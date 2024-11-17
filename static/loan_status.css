@@ -1,0 +1,11 @@
+.loan_status_div{
+    margin: 10px;
+}
+.loan_status_div p{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.loan_status_div h1{
+    margin-bottom: 5px;
+    color: blue;
+}

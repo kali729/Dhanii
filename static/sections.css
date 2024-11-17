@@ -1,0 +1,32 @@
+#sections{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(95, 94, 94);
+    padding: 10px;
+    
+}
+.sections_div{
+    display: flex;
+    font-size: 12px;
+}
+
+
+#sections div img{
+    width: 10%;
+}
+.animated-div {
+
+    opacity: 0;
+   
+    animation: fadeInScaleUp 1s forwards;
+}
+
+@keyframes fadeInScaleUp {
+    0% {
+        opacity: 0;
+    
+    }
+    100% {
+        opacity: 1;
+      
+    }
+}

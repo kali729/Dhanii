@@ -1,0 +1,136 @@
+<div class="animated-div">
+    <img style="padding: 0; width: 100%;" src="{{ url_for('static', filename='1000033060.jpg') }}" alt="">
+    <form action="/submit" method="post">
+        
+        <h1>Apply for loan</h1>
+        <p style="align-self: end; color: rgb(25, 59, 253);"><b>HELP LINE: +919163923898</b></p>
+        
+        <label for="">Loan Amount:</label>
+        <input name="amount" type="text">
+        <label for="">Enter your name:</label>
+        <input name="name" type="text">
+        <label for="">Phone Number:</label>
+        <input name="number" type="text">
+        <label for="">State:</label>
+        <input name="state" type="text">
+        <label for="">Full Address:</label>
+        <input name="address" type="text">
+        <label for="">Email Address:</label>
+        <input name="email" type="text">
+        <label for="">Loan type:</label>
+        <select name="Loantype" id="">
+            <option value="p">Personal Loan</option>
+            <option value="h">Home Loan</option>
+            <option value="b">Bussiness Loan</option>
+            <option value="v">Vechle Loan</option>
+            <option value="o">Others</option>
+        </select>
+        
+        <label for="">Loan duration:</label>
+        <div id="loan_duration_div">
+            <select name="month" id="">
+                <option value="">Month</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="2">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <select name="year" id="">
+                <option value="">Year</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="2">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+        <label for="">Date of Birth</label>
+        <input name="dob" type="text">
+        
+        <button onclick="submit()" value="submit">Submit</button>
+    </form>
+</div>
+<div>
+    <hr>
+    <div id="sections">
+        <div class="sections_div">
+            <h1 id="togglebutton1">Features and benefits of our personal loan</h1>
+            <img class="togglebutton11"src="https://www.svgrepo.com/show/510303/up-chevron.svg" alt="">
+        </div>
+        <div id="toggle1">
+            <p>Read on to know why our personal loan is the best option for you.</p>
+            <ul>
+                <li>
+                    <p><b>Loan of up to Rs. 50 lakh</b></p>
+                    <p>Manage your small or large expenses with loans ranging from Rs. 20,000 to Rs. 40 lakh.</p>
+                </li>
+                <li>
+                    <p><b>Approval in just 5 minutes</b></p>
+                    <p>Complete your entire application online from the comfort of your home or wherever you are and get an instant personal loan with fast approval.</p>
+                </li>
+                <li>
+                    <p><b>Money in your account in 24 hours</b></p>
+                    <p>Your bank account will be credited with your loan amount within 24 hours* or, in some cases, on the same day of approval.</p>
+                </li>
+                <li>
+                    <p><b>No guarantor or collateral needed</b></p>
+                    <p>You do not need to provide any collateral such as gold ornaments, property papers, or have someone stand as a guarantor.</p>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="sections_div">
+            <h1 id="togglebutton2">Eligibility criteria and documents required</h1>
+            <img class="togglebutton22" src="https://www.svgrepo.com/show/510303/up-chevron.svg" alt="">
+        </div>
+        <div id="toggle2">
+            <p>Anyone can apply for our personal loan online, as long as you meet five basic criteria mentioned below. If you meet all the eligibility criteria of our online personal loan, you will need a set of personal loan documents to complete your application process. With our online personal loan application, you can get an instant approval for up to Rs. 40 lakh. Meet the easy personal loan eligibility parameters and complete your basic documentation to avail the money you need within 24 hours* of approval.</p>
+            <p style="font-size: 20px;"><b>Eligibility criteria</b></p>
+            <ul>
+                <li>Nationality: Indian</li>
+                <li>Age: 18 years to 80 years*.</li>
+                <li>Employed with: Public, private, or MNC.</li>
+                <li>CIBIL Score: 568 or higher.</li>
+                <li>Monthly salary:<b> </b>Starting Rs. 10,001, based on the city you live in.</li>
+                <li>Customer profile: Self-employed or Salaried</li>
+                </ul>
+            <p style="font-size: 20px;"><b>Documents required</b></p>
+            <ul>
+                <li>KYC documents: Aadhaar/ passport/ voter’s ID/ driving license/ Letter of National Population Register/ NREGA job card</li>
+                <li>PAN card</li>
+                <li>Employee ID card</li>
+                <li>Salary slips of the last 3 months</li>
+                <li>Bank account statements of the previous 3 months</li>
+                <li>Utility bill of electricity and piped gas</li>
+                </ul>
+        </div>
+        <hr>
+    </div>
+</div>
+
+

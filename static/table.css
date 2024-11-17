@@ -1,0 +1,61 @@
+table{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 2px;
+
+}
+#showissue{
+    font-size: 15px;
+}
+table thead{
+    align-self:center;
+    background-color:rgb(4, 4, 194);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 8px;
+}
+#status_table{}
+tbody{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+tbody tr{
+    background-color: rgb(166, 186, 252);
+    width: 100%;
+
+    
+    
+    
+}
+td{
+    padding: 8px;
+}
+tbody tr:nth-child(even){
+  
+    background-color: rgb(206, 217, 252);
+  
+
+}
+tbody tr td:nth-child(even){
+
+    border-left: 2px solid white;
+
+}
+tbody tr td:nth-child(odd){
+
+    width: 180px;
+
+}
+

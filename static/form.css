@@ -1,0 +1,53 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    margin-top: 0;
+    background-image: url("1000033056.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+form label,input,button,option,select{
+    margin: 5px;
+    font-size: larger;
+    
+}
+
+form button{
+    background-color: rgb(70, 128, 255);
+    color: white;
+    border: none;
+    border: 2px solid black;
+}
+form input,option,select{
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none; /* Remove focus outline */
+}
+form input:focus{
+    border-bottom-color: blue;
+}
+form label{
+    color: rgb(131, 131, 131);
+}
+form input,option,select{
+    padding: 5px;
+    
+}
+form button{
+    width: 200px;
+}
+form button{
+    margin: 20px;
+    height: 40px;
+    border-radius: 20px;
+}
+form h1,button{
+    align-self: center;
+}

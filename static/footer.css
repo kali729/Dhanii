@@ -1,0 +1,18 @@
+footer{
+    background-color: #006DB4;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    padding: 20px;
+}
+footer h1{
+    margin: 12px;
+}
+footer a{ 
+    text-decoration: none;
+    color: white;
+}
