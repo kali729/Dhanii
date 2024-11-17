@@ -3,3 +3,4 @@ Flask-PyMongo==2.3.0
 pymongo==4.8.0
 Werkzeug==2.1.2
 gunicorn==23.0.0
+pandas==2.2.3
